@@ -85,9 +85,12 @@
   padding: 3px;
   width: 90%;
   border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
 }
 .b4:hover {
   cursor: pointer;
+  color: white;
   background: linear-gradient(90deg, rgb(132, 0, 255) 0%, rgb(91, 0, 196) 100%); 
 }
 .bp2 {
@@ -110,15 +113,49 @@
 .pp {
   cursor: pointer;
   z-index: 1;
-  position: absolute;
+  position: fixed;
   color: black;
   font-size: 2vw;
-  bottom: 45vw;
-  right: 97.5vw;
+  bottom: 95%;
+  right: 97.5%;
 }
 .p2 {
   color: white;
 }
 .p1 {
   color: orange;
+}
+/* responsivo */
+@media screen and (max-width: 1000px) {
+  body .b-main {
+    height: 35%;
+    width: 60%;
+  }
+  body .bp {
+    font-size: 4vw;
+  }
+  body .bp::placeholder {
+    font-size: 2.5vw;
+  }
+  body .pp {
+    position: fixed;
+    bottom: 95%;
+    right: 90%;
+    font-size: 7vw;
+  }
+  body .b1 {
+    font-size: 5vw;
+  }
+  body .b4 {
+    font-size: 4vw;
+  }
+  body .b5 {
+    font-size: 3vw;
+  }
+  body .b6 {
+    font-size: 5vw;
+  }
+  body .b-item {
+    margin: 15px;
+  }
 }
