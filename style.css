@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 0.6vh;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  height: 1vh;
+  position: absolute;
+  width: 0.5vh;
+  background-color: #00000000;
+}
+
+* {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Montserrat';
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 0.05vh;
+  resize: none;
+  outline: none;
+  border: 0;
+  user-select: none;
+  color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+}
+
+/* a main */
+.a-main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+/* b main */
+.b-main {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50%;
+  width: 20%;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 7px;
+  filter: drop-shadow(0px 0px 15px rgb(0, 0, 0, 0.3));
+}
+.b-item {
+  margin: 7px;
+}
+.b1 {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 2vw;
+  text-decoration: underline rgb(119, 0, 255) 3px; 
+}
+.bp {
+  background-color: #00000000;
+  border-left: 2px solid rgb(119, 0, 255);
+  font-weight: 600;
+}
+.bp::placeholder {
+  font-size: 1vw;
+}
+.b4 {
+  background: linear-gradient(90deg, rgb(91, 0, 196) 0%, rgb(132, 0, 255) 100%); 
+  color: white;
+  font-weight: 600;
+  padding: 3px;
+  width: 90%;
+  border-radius: 5px;
+}
+.b4:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(132, 0, 255) 0%, rgb(91, 0, 196) 100%); 
+}
+.bp2 {
+  margin: 0px;
+  font-size: 1vw;
+}
+.b6 {
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: gray;
+}
+.b6:hover {
+  cursor: pointer;
+  color: rgb(91, 0, 196);
+}
+/* extras */
+.w1 {
+  height: 0px;
+}
+.pp {
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  color: black;
+  font-size: 2vw;
+  bottom: 45vw;
+  right: 97.5vw;
+}
+.p2 {
+  color: white;
+}
+.p1 {
+  color: orange;
+}
